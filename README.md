@@ -14,6 +14,7 @@ This project implements an abstractive headline generation system using the BART
 - [Colab Notebook](#colab-notebook)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
+- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Project Overview
@@ -40,6 +41,7 @@ Abstractive_Headline_Generation_with_BART/
 ├── main.py            # Main script for training and evaluation
 ├── requirements.txt   # List of Python dependencies
 ├── README.md          # Project documentation (this file)
+├── LICENSE            # MIT License
 ├── images/            # Directory containing project screenshots
 │   ├── gradio_deployment.png  # Screenshot of Gradio interface
 │   └── Loss_curve.png         # Screenshot of training loss plot
@@ -64,11 +66,8 @@ pip install -r requirements.txt
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone --no-checkout https://github.com/HimadeepRagiri/ML-and-DL-Projects.git
-   cd ML-and-DL-Projects
-   git sparse-checkout init --cone
-   git sparse-checkout set NLP_Projects/Abstractive_Headline_Generation_with_BART
-   cd NLP_Projects/Abstractive_Headline_Generation_with_BART
+   git clone https://github.com/HimadeepRagiri/Abstractive_Headline_Generation_with_BART.git
+   cd Abstractive_Headline_Generation_with_BART
    ```
 
 2. **Install Dependencies**:
@@ -133,6 +132,10 @@ Contributions are welcome! To contribute:
 5. Open a Pull Request.
 
 Please ensure your code follows the existing style and includes appropriate documentation.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 - Hugging Face for the Transformers library and datasets.
